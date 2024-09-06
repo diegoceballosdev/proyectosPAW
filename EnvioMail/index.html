@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Cuenta</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <form method="post" action="mail.php">
+        <fieldset>
+            <legend>Contacto:</legend>
+
+            <label for="nombre">Nombre:</label>
+            <input class="campo" type="text" id="nombre" name="nombre" required>
+
+            <label for="apellido">Apellido:</label>
+            <input class="campo" type="text" id="apellido" name="apellido" required>
+
+            <label for="correo">Correo:</label>
+            <input class="campo" type="email" id="correo" name="correo" required>
+            
+            <label for="asunto">Asunto:</label>
+            <input class="campo" type="text" id="asunto" name="asunto" required>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+
+            <div class="actions">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Cancelar">
+            </div>
+        </fieldset>
+    </form>
+
+</body>
+</html>

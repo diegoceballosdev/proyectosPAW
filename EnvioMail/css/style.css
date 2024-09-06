@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    background-color: lightblue;
+}
+
+form {
+    width: 40%;
+    padding: 20px;
+    border: 1px double #000;
+    border-radius: 20px;
+    background-color: white;
+}
+
+fieldset{
+    border: 1px double #000;
+    border-radius: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input.campo, select{
+    width: 95%;
+    padding: 5px;
+    margin: 5px;
+}
+input.radioItem{
+    width: 10px;
+}
+
+div.genero{
+    display:flex;
+    justify-content: start;
+    gap: 5px;
+}
+
+div.fechaNac{
+    display: flex;
+}
+
+textarea {
+    width: 98%;
+    height: 60px;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.actions input {
+    width: 45%;
+    padding: 5px 10px;
+    background-color: lightblue;
+}
